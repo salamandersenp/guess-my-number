@@ -55,7 +55,7 @@ document.querySelector(".check").addEventListener("click", function () {
 document.querySelector(".again").addEventListener("click", function () {
   random = Math.trunc(Math.random() * 40) + 1;
   document.querySelector(".number").textContent = "?";
-  score = 5;
+  score = 7;
   document.querySelector(".score").textContent = score;
   document.querySelector(".number").style.width = "15rem";
   document.querySelector("body").style.backgroundColor = "#222";
